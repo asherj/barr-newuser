@@ -38,6 +38,46 @@ nav a:hover {
 background-color: black;
 }
 
+lnav ul {
+list-style-type: none;
+padding:0;
+}
+
+lnav ul2 {
+list-style-type: none;
+padding:5px 0;
+}
+
+lnav li {
+display:inline;
+float:top;
+}
+
+lnav a:link, lnav a:visited {
+background-color: grey;
+color:white;
+display:block;
+width:200px;
+text-align:left;
+padding:5px;
+margin-left:0px
+}
+
+lnav a:hover {
+background-color: black;
+}
+
+lcol {
+float:left;
+margin-left:10px
+
+}
+
+rcol {
+float:right;
+margin-left:10px
+}
+
 aside {
 width:280px;
 float:right;
@@ -68,7 +108,9 @@ margin-top:10px;
 font-size:35px;
 }
 footer {
+clear:both;
 margin:40px 0;
+width:800px;
 }
 footer nav a:link, footer nav a:visited {
 color:gray;
