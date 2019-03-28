@@ -8,4 +8,6 @@ may serve as a starting place on your journey. This guide is geared toward the
 new 3d printer owner,  If you are interested in building one, come to the meetings, 
 there are lots of folks there with experience, happy to share.
 
-I'll be posting this up on a website soon.
+This poor collection of semi-random html is accessible on the web at 
+http://kingshammer.org/barr/
+
