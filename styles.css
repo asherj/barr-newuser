@@ -1,139 +1,30 @@
-h1, h2, h3 {
-	color:black;
+html body {
+	height: 100%;
+	width: 100%;
 }
-
 body {
-font-family: 'Open Sans', sans-serif;
-margin:0 auto;
-width:800px;
+	padding-top: 70px;
+	/* padding-bottom: 70px; */
 }
 
-a:link, a:visited {
-text-decoration: none;
-color:blue;
-font-weight: bold;
+p {
+	text-align: justify;
 }
 
-a:hover {
-color:black;
+.profile-text {
+	height: 250px;
+	text-overflow: ellipsis;
 }
 
-nav ul {
-list-style-type: none;
-padding:0;
-}
-nav li {
-display:inline;
-float:left;
-}
-nav a:link, nav a:visited {
-background-color: brown;
-color:white;
-display:block;
-width:160px;
-text-align:center;
-padding:10px 0;
-}
-nav a:hover {
-background-color: black;
+.big-font {
+	font-size: 3rem;
 }
 
-lnav ul {
-list-style-type: none;
-padding:0;
+blockquote {
+	padding: 0 100px;
 }
 
-lnav ul2 {
-list-style-type: none;
-padding:5px 0;
-}
-
-lnav li {
-display:inline;
-float:top;
-}
-
-lnav a:link, lnav a:visited {
-background-color: grey;
-color:white;
-display:block;
-width:200px;
-text-align:left;
-padding:5px;
-margin-left:0px
-}
-
-lnav a:hover {
-background-color: black;
-}
-
-lcol {
-float:left;
-margin-left:10px
-
-}
-
-rcol {
-float:right;
-margin-left:10px
-}
-
-aside {
-width:280px;
-float:right;
-background-color:tan;
-text-align:center;
-font-weight: bold;
-padding:20px;
-margin-left:20px;
-}
-.photo-left {
-float:left;
-margin-right:20px;
-}
-.photo-right {
-float:right;
-margin-left:20px;
-}
-#header {
-#background-image:url("images/header-logo.png");
-#height:150px;
-#margin-bottom:30px;
-#}
-
-header h1 {
-color:rgba(256,60,60,.8);
-margin-left:30px;
-margin-top:10px;
-font-size:35px;
-}
 footer {
-clear:both;
-margin:40px 0;
-width:800px;
-}
-footer nav a:link, footer nav a:visited {
-color:gray;
-text-decoration: none;
-width:160px;
-text-align:center;
-background-color:white;
-}
-footer nav a:hover {
-color:black;
-}
-td, th {
-border:1px solid black;
-width:20%;
-text-align:center;
-padding:5px;
-}
-table {
-border-collapse:collapse;
-}
-video {
-margin-bottom=20px;
-margin-left:160px;
--webkit-filter:grayscale(100%);
-filter:grayscale(100%);
+	border-top: 1px solid #f2f2f2;
+	background-color: aliceblue;
 }
