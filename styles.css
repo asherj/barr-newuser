@@ -36,3 +36,8 @@ footer {
 section {
 	padding-bottom: 10px;
 }
+
+.user-text {
+	height: 100px;
+	text-overflow: ellipsis;
+}
