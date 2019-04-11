@@ -1,118 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8" />
 	<title>Glossary</title>
 	<meta name="generator" content="BBEdit 12.5" />
-	<link href="styles.css" rel="stylesheet" type="text/css"/>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/x-icon" href="images/printer.ico">
 </head>
+
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="community.html">Community</a></li>
-<li><a href="glossary.html">Glossary</a></li>
-<li><a href="resources.html">Resources</a></li>
-<li><a href="https://groups.google.com/forum/?hl=en#!forum/bay-area-reprap">Google Group</a></li>
-</ul>
-</nav>
-</header>
-<dl>
-	<dt id="ABS">	ABS</dt>
-		<dd>	Acrylonitrile Butadiene Styrene, A tough thermoplastic filament, pretty much requires a heated bed, tends to warp</dd>
-	<dt id="Arduino">	Arduino</dt>
-		<dd>	A single board computer, based on the ATMEL AT series microcontrollers</dd>
-	<dt id="Bed Leveling">	Bed Leveling</dt>
-		<dd>    Making sure that the build plate is a uniform distance from the print head, more accuratly known as tramming</dd>
-	<dt id="Bowden Extruder">	Bowden Extruder</dt>
-		<dd>	An <a href="#extruder">extruder</a> that is mounted away from the <a href="#hot_end">hot end</a>, and connected to the hot end by a tube</dd>
-	<dt id="Brim">	Brim</dt>
-		<dd>	A printing technique where you print boarder around the bottom of a print to improve adhesion to the printbed</dd>
-	<dt id="Build Plate">	Build Plate (build surface)</dt>
-		<dd>	The surface on which the hot end deposits plastic.	</dd>
-	<dt id="BuildTak">	BuildTak</dt>
-		<dd>	An easy release covering for a build plate </dd>
-	<dt id="CAD">	CAD</dt>
-		<dd>	Computer Aided Design</dd>
-	<dt id="CAM">	CAM</dt>
-		<dd>	Computer Aided Manufacturing, The process of turning a computer file to a physical object</dd>
-	<dt id="CNC">	CNC</dd>
-		<dd>	Computer Numerical Control</dd>
-	<dt id="Duet">	Duet</dt>
-		<dd>	A specific brand of controller board for 3d printers (or any other multi-axis machine)
-	<dt id ="extruder"> 	Extruder</dt>
-		<dd>	The part of the printer that grabs the <a href="#filament">filament</a> and pushes it into the <a href="#hot_end">hot end</a></dd>
-	<dt id="fdm">	FDM</dt>
-		<dd>Fused Deposition Modeling. One of the methods of additive 3D printing</dd>
-	<dt id="filament">	Filament</dt>
-		<dd>The thermoplastic that is melted in the <a href="#hot_end">hot end</a> that is used to build up the print</dd>
-	<dt id="g-code">	G-code</dt>
-		<dd>The instructions sent to the printer to cause it to move the motors/fans etc to actually print</dd>
-	<dt id="hot_end">	Hot end</dt>
-		<dd>	The part of the printer that melts the plastic, containing a heater block, a melt chamber and a nozzle</dd>
-	<dt id="makerbot">	MakerBot</dt>
-		<dd>	An early 3d printer company, Created the MakerBot line of printers and the <a href="#thingiverse">Thingiverse</a> website</dd>
-	<dt id="marlin firmware">	Marlin firmware</dt>
-		<dd>	One of the first 3D printer firmware variants, the code that translates the g-code into motor positions and thermal settings to run the printer. </dd>
-	<dt id="mendel">	Mendel</dt>
-		<dd>	An early model of 3D printer, derived from the original printers from the reprap project at Bath University </dd>
-	<dt id="motor driver">	motor driver</dt>
-		<dd>	An electronic part that converts step and direction signals from the microcontroller into the electrical pulses that drive the stepper motors</dd>
-	<dt id="obj">	OBJ</dt>
-		<dd>	One of the file formats used to store 3d models, optionally includes color information</dd>
-	<dt id="PEI">	PEI</dt>
-		<dd>	 Polyetherimide is a reusable "relatively maintenance free" build surface</dd>
-	<dt id="PETG">	PETG</dt>
-		<dd>	PETG is a clear amorphous thermoplastic, more flexible than PLA or ABS</dd>
-	<dt id="Print Bed">	Print Bed</dt>
-		<dd>	The portion of the printer that supports the <a href="#Build Plate">build plate</a>	</dd>
-	<dt id="polulu">	Polulu</dt>
-		<dd>	A popular manufacturer of <a href="#motor driver">motor drivers</a> and other electronics</dd>
-	<dt id="prusa">	Prusa</dt>
-		<dd>	A man (<a href="https://www.innovatorsunder35.com/the-list/josef-průš/">Joseph Prusa</a>), a company (<a href="https://www.prusa3d.com">Prusa Research</a>) 
-		and a <a href="https://en.wikipedia.org/wiki/Prusa_i3">Printer</a>.
-	<dt id="raft">	Raft</dt>
-		<dd>	A raft is a printing technique where you print a thin layer of plastic before you print your model, it helps correct for 
-				warped build surfaces, and may improve adhesion.</dd>
-	<dt id="ramps">	RAMPS</dt>
-		<dd>	An <a href="#Arduino">Arduino</a> based G-code interpreter and CNC control system board. One of the earliest low cost printer control boards</dd>
-	<dt id="repetier firmware">	Repetier firmware</dt>
-		<dd>	A 3D printer firmware variant</dd>
-	<dt id="reprap">	Reprap</dt>
-		<dd>	A research project at Bath university, headed by Adrian Bowyer, working on creating a self replicating machine</dd>
-	<dt id="skirt">	Skirt</dt>
-		<dd>	A 3D printing technique where you print a lip on the bottom of a print to improve adhesion to the print surface</dd>
-	<dt id="slic3r">	Slic3r</dt>
-		<dd>	An early open source <a href="#slicing">slicing</a> program. Sometimes pronounced <i>slic-3-r</i></dd>
-	<dt id="slicing">	Slicing</dt>
-		<dd>	The act of converting a 3D model into <a href="">G-code</a> by breaking the model into individual layers and then translating each layer into instructions for the printer</dd>
-	<dt id="smoothie board">	Smoothie board</dt>
-		<dd>	A G-code interpreter and CNC control system based on a 32 bit microcontroller</dd>
-	<dt id="stl">	STL</dt>
-		<dd>	A popular file format for 3D models</dd>
-	<dt id="stringing">	Stringing</dt>
-		<dd>	Hair like threads of plastic that remain on a print, usually easy to remove with a heat gun</dd>
-	<dt id="thingiverse">	Thingiverse</dt>
-		<dd>	One of the first websites set up for sharing 3D printable models. Owned and run by <a href="">MakerBot</a></dd>
-	<dt id="trinamic">	Trinamic</dt>
-		<dd>	A popular brand of <a href="#motor drivers">motor driver</a>, more sophisticated than the basic <a href="#polulu">Polulu</a></dd>
-</dl>
-<footer>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="community.html">Community</a></li>
-<li><a href="glossary.html">Glossary</a></li>
-<li><a href="resources.html">Resources</a></li>
-<li><a href="https://groups.google.com/group/bay-area-reprap">Google Group</a></li>
-</ul>
-</nav>
-<br/>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-<br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">New 3D Printer Users Guide</span>
- by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bay Area RepRap </span>
-  is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-</footer>
+	<!-- <header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="community.html">Community</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="https://groups.google.com/forum/?hl=en#!forum/bay-area-reprap">Google Group</a></li>
+			</ul>
+		</nav>
+	</header> -->
+	<section>
+		<div class="container"><div class="row"><div class="col-md-12">
+			<dl>
+				<dt id="ABS"> ABS</dt>
+				<dd> Acrylonitrile Butadiene Styrene, A tough thermoplastic filament, pretty much requires a heated bed, tends to
+					warp</dd>
+				<dt id="Arduino"> Arduino</dt>
+				<dd> A single board computer, based on the ATMEL AT series microcontrollers</dd>
+				<dt id="Bed Leveling"> Bed Leveling</dt>
+				<dd> Making sure that the build plate is a uniform distance from the print head, more accuratly known as tramming
+				</dd>
+				<dt id="Bowden Extruder"> Bowden Extruder</dt>
+				<dd> An <a href="#extruder">extruder</a> that is mounted away from the <a href="#hot_end">hot end</a>, and connected
+					to the hot end by a tube</dd>
+				<dt id="Brim"> Brim</dt>
+				<dd> A printing technique where you print boarder around the bottom of a print to improve adhesion to the printbed
+				</dd>
+				<dt id="Build Plate"> Build Plate (build surface)</dt>
+				<dd> The surface on which the hot end deposits plastic. </dd>
+				<dt id="BuildTak"> BuildTak</dt>
+				<dd> An easy release covering for a build plate </dd>
+				<dt id="CAD"> CAD</dt>
+				<dd> Computer Aided Design</dd>
+				<dt id="CAM"> CAM</dt>
+				<dd> Computer Aided Manufacturing, The process of turning a computer file to a physical object</dd>
+				<dt id="CNC"> CNC</dd>
+				<dd> Computer Numerical Control</dd>
+				<dt id="Duet"> Duet</dt>
+				<dd> A specific brand of controller board for 3d printers (or any other multi-axis machine)
+				<dt id="extruder"> Extruder</dt>
+				<dd> The part of the printer that grabs the <a href="#filament">filament</a> and pushes it into the <a
+						href="#hot_end">hot end</a></dd>
+				<dt id="fdm"> FDM</dt>
+				<dd>Fused Deposition Modeling. One of the methods of additive 3D printing</dd>
+				<dt id="filament"> Filament</dt>
+				<dd>The thermoplastic that is melted in the <a href="#hot_end">hot end</a> that is used to build up the print</dd>
+				<dt id="g-code"> G-code</dt>
+				<dd>The instructions sent to the printer to cause it to move the motors/fans etc to actually print</dd>
+				<dt id="hot_end"> Hot end</dt>
+				<dd> The part of the printer that melts the plastic, containing a heater block, a melt chamber and a nozzle</dd>
+				<dt id="makerbot"> MakerBot</dt>
+				<dd> An early 3d printer company, Created the MakerBot line of printers and the <a
+						href="#thingiverse">Thingiverse</a> website</dd>
+				<dt id="marlin firmware"> Marlin firmware</dt>
+				<dd> One of the first 3D printer firmware variants, the code that translates the g-code into motor positions and
+					thermal settings to run the printer. </dd>
+				<dt id="mendel"> Mendel</dt>
+				<dd> An early model of 3D printer, derived from the original printers from the reprap project at Bath University
+				</dd>
+				<dt id="motor driver"> motor driver</dt>
+				<dd> An electronic part that converts step and direction signals from the microcontroller into the electrical pulses
+					that drive the stepper motors</dd>
+				<dt id="obj"> OBJ</dt>
+				<dd> One of the file formats used to store 3d models, optionally includes color information</dd>
+				<dt id="PEI"> PEI</dt>
+				<dd> Polyetherimide is a reusable "relatively maintenance free" build surface</dd>
+				<dt id="PETG"> PETG</dt>
+				<dd> PETG is a clear amorphous thermoplastic, more flexible than PLA or ABS</dd>
+				<dt id="Print Bed"> Print Bed</dt>
+				<dd> The portion of the printer that supports the <a href="#Build Plate">build plate</a> </dd>
+				<dt id="polulu"> Polulu</dt>
+				<dd> A popular manufacturer of <a href="#motor driver">motor drivers</a> and other electronics</dd>
+				<dt id="prusa"> Prusa</dt>
+				<dd> A man (<a href="https://www.innovatorsunder35.com/the-list/josef-průš/">Joseph Prusa</a>), a company (<a
+						href="https://www.prusa3d.com">Prusa Research</a>)
+					and a <a href="https://en.wikipedia.org/wiki/Prusa_i3">Printer</a>.
+				<dt id="raft"> Raft</dt>
+				<dd> A raft is a printing technique where you print a thin layer of plastic before you print your model, it helps
+					correct for
+					warped build surfaces, and may improve adhesion.</dd>
+				<dt id="ramps"> RAMPS</dt>
+				<dd> An <a href="#Arduino">Arduino</a> based G-code interpreter and CNC control system board. One of the earliest
+					low cost printer control boards</dd>
+				<dt id="repetier firmware"> Repetier firmware</dt>
+				<dd> A 3D printer firmware variant</dd>
+				<dt id="reprap"> Reprap</dt>
+				<dd> A research project at Bath university, headed by Adrian Bowyer, working on creating a self replicating machine
+				</dd>
+				<dt id="skirt"> Skirt</dt>
+				<dd> A 3D printing technique where you print a lip on the bottom of a print to improve adhesion to the print surface
+				</dd>
+				<dt id="slic3r"> Slic3r</dt>
+				<dd> An early open source <a href="#slicing">slicing</a> program. Sometimes pronounced <i>slic-3-r</i></dd>
+				<dt id="slicing"> Slicing</dt>
+				<dd> The act of converting a 3D model into <a href="">G-code</a> by breaking the model into individual layers and
+					then translating each layer into instructions for the printer</dd>
+				<dt id="smoothie board"> Smoothie board</dt>
+				<dd> A G-code interpreter and CNC control system based on a 32 bit microcontroller</dd>
+				<dt id="stl"> STL</dt>
+				<dd> A popular file format for 3D models</dd>
+				<dt id="stringing"> Stringing</dt>
+				<dd> Hair like threads of plastic that remain on a print, usually easy to remove with a heat gun</dd>
+				<dt id="thingiverse"> Thingiverse</dt>
+				<dd> One of the first websites set up for sharing 3D printable models. Owned and run by <a href="">MakerBot</a></dd>
+				<dt id="trinamic"> Trinamic</dt>
+				<dd> A popular brand of <a href="#motor drivers">motor driver</a>, more sophisticated than the basic <a
+						href="#polulu">Polulu</a></dd>
+			</dl>
+		</div></div></div>
+	</section>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="community.html">Community</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+				<li><a href="resources.html">Resources</a></li>
+				<li><a href="https://groups.google.com/group/bay-area-reprap">Google Group</a></li>
+			</ul>
+		</nav>
+		<br />
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+				style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+		<br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">New 3D Printer Users Guide</span>
+		by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bay Area RepRap </span>
+		is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+			Attribution-ShareAlike 4.0 International License</a>.
+	</footer>
 </body>
+
 </html>
