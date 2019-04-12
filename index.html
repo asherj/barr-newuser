@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>New 3D Printer User's Guide</title>
+    <title>3D Printer Bay Area</title>
     <meta name="generator" content="BBEdit 12.5" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -12,6 +12,7 @@
 
   <body>
     <div class="container">
+      <!-- HEADER -->
       <header>
         <div class="row">
           <div class="col-md-12">
@@ -59,7 +60,7 @@
       <section>
         <div class="row"><div class="col-md-12">
           <h2>Bay Area Rep Rap Presents: All Things 3D Printing</h2>
-          <p>We created this document to help the folks who come to the meetings, who just don’t know
+          <!-- <p>We created this document to help the folks who come to the meetings, who just don’t know
             where to start.&nbsp;&nbsp;There’s a lot of info available, but it’s not easily digestible.&nbsp;&nbsp;
             So hopefully these pages may serve as a starting place on your journey.&nbsp;&nbsp;This guide is
             geared toward the new 3d printer owner.&nbsp;&nbsp;If you are interested in building one,
@@ -67,453 +68,143 @@
             In sections where there are large numbers of items, we have tried to limit the choices
             to just a few that are more approachable.&nbsp;&nbsp;The rest will be in the <a
               href="resources.html">Resources</a> page.&nbsp;&nbsp;
-            If you are more interested in 3D design, and would rather have someone else print things, ask around or
-            look at the <a href="users/new.html#services">Service Bureau</a> section.
-          </p>
+            
+          </p> -->
           <p>
             <a href="community.html"> Bay Area Rep Rap </a> members have been sharing [ideas, tips, best term for concept here please] at local meetings since the earliest days of “repetative rapid prototyping,” aka 3D printing. The group has people who build their own 3D printers to those who are just starting on a creative journey. Just like you, all of us had to start knowing nothing; learning by looking for answers to questions.
-
+            <p>
             Answers? The web is strewn with videos, tips and tutorials, so much information is overwhelming, especially when you want a simple answer to what you thought was a simple question.
-            
+            </p>
+            <p>
             For now, this guide will point you to our favorite answers to common questions we hear, to be replaced with more and more answers coming from our members as we build our knowledge base.
-            
-            Take a look at our  <a href="https://groups.google.com/group/bay-area-reprap" target="_blank"> Bay Area Rep Rap Discussion Group</a> and feel free to post your quesiions.
-            
-            We meet in San Jose twice monthly – please drop by if you can… even bring your printer!
+            </p>
+            <p>
+            Take a look at our  <a href="https://groups.google.com/group/bay-area-reprap" target="_blank"> Bay Area Rep Rap Discussion Group</a> and feel free to post your questions.
+            </p>
+            <p>
+            We meet in San Jose (<a href="https://theshop.build/San-Jose" target="_blank">TheShop.build</a>) twice monthly – please drop by if you can… even bring your printer!
+            </p>
           </p>
         </div></div>
       </section>
 
-     <!-- NEW SECTION -->
-    <section>
-      <div class="row"><div class="col-md-12">
-        <h3>What does 3D printing mean?</h3>
-        <blockquote>
-          <p>
-            <span class="big-font">"Seeing my childhood come back to life"</span>
-            <span>--&nbsp;Me</span>
-          </p>
-        </blockquote>
-        <p>
-          Something in between
-        </p>
-        <blockquote>
-          <p>
-            <span class="big-font">"What!"</span>
-            <span>--&nbsp;Alternate Me</span>
-          </p>
+      <!-- NEW SECTION -->
+      <section>
+        <div class="row"><div class="col-md-12">
+          <h3>What does 3D printing mean?</h3>
+          <blockquote>
+            <p>
+              <span class="big-font">"Seeing my childhood come back to life"</span>
+              <span>--&nbsp;Me</span>
+            </p>
           </blockquote>
-      </div></div>
-    </section>
-
-    <!-- WHAT KIND OF USER -->
-    <section>
-      <div class="row">
-        <div class="col-md-12">
-          <h3>What kind of user are you?</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card border-primary" >
-            <img src="images/question-mark.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Noobs</h5>
-              <p class="card-text user-text">I have no idea what I am doing here</p>
-              <a href="users/new.html" class="card-link" target="_blank">
-                Show me something interesting
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card border-primary" >
-            <img src="images/intermediate.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Intermediate</h5>
-              <p class="card-text user-text">I have my 3D printere; what now?! Troubleshooting?</p>
-              <a href="users/intermediate.html" class="card-link" target="_blank">
-                Let's go!!!
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card border-primary" >
-            <img src="images/heart-printer.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Advanced</h5>
-              <p class="card-text user-text">Bring it on</p>
-              <a href="resources.html" class="card-link" target="_blank">
-                Just Go!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- BASIC WORKFLOW -->
-    <section>
-      <div class="row"><div class="col-md-12">
-        <h2>Basic Workflow</h2>
-        <img src="images/Workflow.png" alt="" style="width: 100%">
-        <ul>
-          <li>Find what you want to print (Thingiverse)</li>
-          <li>Tweak it for your purposes (TinkerCAD)</li>
-          <li>Convert it to g-code (Slic3r)</li>
-          <li>Send it to the printer (SD card or Pronterface)</li>
-          <li>Print</li>
-        </ul>
-      </div></div>
-    </section>
-
-    <section id="terminology">
-      <h2>Terminology: framastanls & thimajigs</h2>
-      <p>If you’ve been to a meetup, and wondered WTF are they talking about, some terms that may be helpful…
-      </p>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=KZi3esvQ02w">3D Printer Anatomy</a></li>
-      </ul>
-      <p>More in the <a href="glossary.html">glossary</a>
-      </p>
-    </section>
-    
-    <section>
-      <!-- <h2>Intro Videos</h2>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <a href="https://www.youtube.com/watch?v=6Rw9-nxqXtM">I Got a 3D Printer for Christmas</a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://www.youtube.com/playlist?list=PLEJK8F0g9KPcVCwRLHqvgc213O19vCiZh">3d Printer Noob's
-            Guide</a>
-        </li>
-        <li class="list-group-item"><a href="https://www.youtube.com/playlist?list=PLfzz3f4EgsrScABf298ZBl_YjJpU1MkQg">MatterHackers 3D Printing How To</a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://www.youtube.com/playlist?list=PLRFPlUhDTTllAprh8GbHJw0NjHKWT7Yzs">TinkerCAD 3D Design Tutorial</a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://www.reprap.org/wiki/The_incomplete_RepRap_Prusa_Mendel_beginner%27s_guide">RepRap
-            Beginners guide</a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://www.youtube.com/watch?v=c20nrF4b8-g">Filament storage and Loading</a>
-        </li>
-      </ul>
-      <p>Not a video, but helpful nonetheless: <a
-          href="https://www.instructables.com/id/Design-and-print-3d-models/">Design and Print 3D Models</a>
-      </p> -->
-    </section>
-
-    <section>
-      <!-- <h2>Tuning/Calibrating & Troubleshooting your printer</h2>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=Eoq_4hl5JX0">Tuning 3D Printers Q&A</a></li>
-        <li><a href="https://www.youtube.com/watch?v=g8uvh6kvr54">How to clean a clogged nozzle</a></li>
-        <li><a href="https://www.youtube.com/watch?v=V7fxY62gTkw">Troubleshooting underextrusion</a></li>
-        <li><a href="https://www.simplify3d.com/support/print-quality-troubleshooting/">Print Quality
-            Troubleshooting</a></li>
-        <li><a href="https://www.youtube.com/results?search_query=3d+printer+troubleshooting">Search on YouTube</a>
-        </li>
-        <li><a href="https://www.youtube.com/watch?v=0qBteLSJTtU">3D Printer Maintenance</a></li> -->
-    </section>
-    
-    <!-- TOOLS -->
-    <section>
-      <div class="row"><div class="col-md-12">
-        <h2>Tools & Softwares</h2>
-      </div></div>
-      <div class="row"><div class="col-md-12">
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Tools you should have</h5>
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-6">
-              <ul>
-                <li>Heat Gun</li>
-                <li>Trim Pot Adjustment Tool</li>
-                <li>Safety Glasses</li>
-                <li>Spatula/Paint Scraper</li>
-                <li>Work Gloves</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <ul>
-                <li>Craft Knife</li>
-                <li>Allen (Hex) Wrenches</li>
-                <li>Needle Nose Pliers</li>
-                <li>Side Cutters (diagonal cutters)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Fixing Models</h5>
-          <p>The programs to use to get your design from your head into the computer</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="http://www.meshmixer.com">Meshmixer</a></li>
-            <li><a href="https://makeprintable.com">MakePrintable</a></li>
-            <li><a href="https://service.netfabb.com/login.php">Netfab</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Creating Models</h5>
-          <p>Mostly useful to fix models from 3D scanners or models not originally intended for printing</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="https://www.tinkercad.com">TinkerCAD</a></li>
-            <li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion360</a></li>
-            <li><a href="https://www.sketchup.com">Sketchup</a></li>
-            <li><a href="http://www.openscad.org">OpenSCAD</a></li>
-            <li><a href="https://www.matterhackers.com/store/l/mattercontrol">Mattercontrol</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Slicers</h5>
-          <p>To convert from STL or OBJ into G-code for the printer, this is the place where you tweak the settings</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="https://slic3r.org">Slic3r</a></li>
-            <li><a href="https://ultimaker.com/en/products/ultimaker-cura-software">Cura</a></li>
-            <li><a href="http://www.kisslicer.com">Kisslicer</a></li>
-            <li><a href="https://www.simplify3d.com">Simplify 3D</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Host</h5>
-          <p>Sends the G-code to the printer and lets you control the printer directly</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="http://www.pronterface.com">Pronterface</a></li>
-            <li><a href="https://www.repetier.com">Repetier Host</a></li>
-            <li><a href="https://www.matterhackers.com/store/l/mattercontrol">Mattercontrol</a></li>
-            <li><a href="https://octoprint.org">Octoprint</a></li>
-            <li><a href="https://www.simplify3d.com">Simplify 3D</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Monitoring</h5>
-          <p>Watches the print, allows remote control</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="https://octoprint.org">Octoprint</a></li>
-            <li><a href="https://plugins.octoprint.org/plugins/RepetierInformer/">Repetier Informer plugin for
-                Octoprint</a></li>
-            <li><a href="https://www.repetier-server.com">Repetier Server</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Firmware</h5>
-          <p>Interprets G-code and runs the motors, sensors, fans, hot-end etc...</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a href="https://octoprint.org">Octoprint</a></li>
-            <li><a href="https://plugins.octoprint.org/plugins/RepetierInformer/">Repetier Informer plugin for
-                Octoprint</a></li>
-            <li><a href="https://www.repetier-server.com">Repetier Server</a></li>
-          </ul>
-        </div>
-      </div>
-      </div></div>
-    </section>
-    <br>
-    <section>
-      <h2>Sources of Models</h2>
-      <p>There are a few different "types" of models, Some are intended as assets for games, or
-        just for illustrative purposes. Some are scans of existing objects. Some are design models
-        used in manufacturing. Models that are suitable for 3D printing need to have certain characteristics:</p>
-      <ul>
-        <li>They need to be in one piece (no floating parts)</li>
-        <li>They need to be watertight (have a defined inside & outside)</li>
-        <li>The walls of the model must not be too thin (depends on your printer, but more than than .2 mm is a good
-          start)</li>
-        <li>For FDM printers unsupported overhangs shouldn't be more than 45 degrees</li>
-      </ul>
-      <p>There is more info on what makes a good 3D model in the <a href="#design">Design</a> section.</p>
-      <ul>
-        <li><a href="https://www.thingiverse.com">Thingiverse</a></li>
-        <li><a href="https://www.myminifactory.com">MyMiniFactory</a></li>
-        <li><a href="https://pinshape.com">Pinshape</a></li>
-        <li><a href="https://www.yeggi.com">Yeggi</a></li>
-        <li><a href="https://nasa3d.arc.nasa.gov/models">NASA</a></li>
-        <li><a href="https://www.stlfinder.com">STLFinder</a></li>
-        <li><a href="https://www.traceparts.com/en">TraceParts</a></li>
-        <li><a href="https://3dkitbash.com">3D KitBash</a></li>
-      </ul>
-    </section>
-    <section>
-      <!-- <h2>Tools (software)</h2>
-      <h3>Creating Models</h3>
-      <p>The programs to use to get your design from your head into the computer</p>
-      <ul>
-        <li><a href="https://www.tinkercad.com">TinkerCAD</a></li>
-        <li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion360</a></li>
-        <li><a href="https://www.sketchup.com">Sketchup</a></li>
-        <li><a href="http://www.openscad.org">OpenSCAD</a></li>
-        <li><a href="https://www.matterhackers.com/store/l/mattercontrol">Mattercontrol</a></li>
-      </ul> -->
-      <!-- <h3>Fixing Models</h3>
-      <p>Mostly useful to fix models from 3D scanners or models not originally intended for printing</p>
-      <ul>
-        <li><a href="http://www.meshmixer.com">Meshmixer</a></li>
-        <li><a href="https://makeprintable.com">MakePrintable</a></li>
-        <li><a href="https://service.netfabb.com/login.php">Netfab</a></li>
-      </ul> -->
-      <!-- <h3>Slicers</h3>
-      <p>To convert from STL or OBJ into G-code for the printer, this is the place where you tweak the settings</p>
-      <ul>
-        <li><a href="https://slic3r.org">Slic3r</a></li>
-        <li><a href="https://ultimaker.com/en/products/ultimaker-cura-software">Cura</a></li>
-        <li><a href="http://www.kisslicer.com">Kisslicer</a></li>
-        <li><a href="https://www.simplify3d.com">Simplify 3D</a></li>
-      </ul> -->
-      <!-- <h3>Host</h3>
-      <p>Sends the G-code to the printer and lets you control the printer directly</p>
-      <ul>
-        <li><a href="http://www.pronterface.com">Pronterface</a></li>
-        <li><a href="https://www.repetier.com">Repetier Host</a></li>
-        <li><a href="https://www.matterhackers.com/store/l/mattercontrol">Mattercontrol</a></li>
-        <li><a href="https://octoprint.org">Octoprint</a></li>
-        <li><a href="https://www.simplify3d.com">Simplify 3D</a></li>
-      </ul> -->
-      <!-- <h3>Monitoring</h3>
-      <p>Watches the print, allows remote control</p>
-      <ul>
-        <li><a href="https://octoprint.org">Octoprint</a></li>
-        <li><a href="https://plugins.octoprint.org/plugins/RepetierInformer/">Repetier Informer plugin for
-            Octoprint</a></li>
-        <li><a href="https://www.repetier-server.com">Repetier Server</a></li>
-      </ul> -->
-      <!-- <h3>Firmware</h3>
-      <p>Interprets G-code and runs the motors, sensors, fans, hot-end etc...</p>
-      <ul>
-        <li><a href="http://marlinfw.org">Marlin</a></li>
-        <li><a href="https://github.com/gnea/grbl/releases">GRBL</a></li>
-        <li><a href="https://www.reprap.org/wiki/RepRap_Firmware">RepRap</a></li>
-        <li><a href="http://smoothieware.org">Smoothieware</a></li>
-        <li><a href="https://www.repetier.com/documentation/repetier-firmware/">Repetier Firmware</a></li>
-      </ul> -->
-      <section>
-        <h2>Sources of Filament & other Consumables</h2>
-        <ul>
-          <li><a href="https://www.youtube.com/watch?v=Or1FP43zx3I">Filament Overview</a></li>
-          <li><a href="http://atomicfilament.com">Atomic Filament</a></li>
-          <li><a href="https://www.proto-pasta.com/pages/magnetic-iron-pla/">Proto-Pasta</a></li>
-          </li>
-          <li><a href="http://www.matterhackers.com/store/3d-printer-filament">Matter Hackers</a></li>
-          <li><a href="https://quantum3dprinting.com">Quantum</a></li>
-          <li><a href="https://profound3d.com/pages/welcome-octave-com-customers">Octave Systems</a></li>
-        </ul>
+          <p>
+            Something in between
+          </p>
+          <blockquote>
+            <p>
+              <span class="big-font">"What!"</span>
+              <span>--&nbsp;Alternate Me</span>
+            </p>
+            </blockquote>
+        </div></div>
       </section>
-      
+
+      <!-- WHAT KIND OF USER -->
       <section>
-        <h2>Sources of Parts</h2>
-        <div class="row tool-list">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>What kind of user are you?</h3>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-4">
-            <h5>Printer Parts</h5>
-            <!-- <p>Sends the G-code to the printer and lets you control the printer directly</p> -->
+            <div class="card border-primary" >
+              <img src="images/question-mark.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Noobs</h5>
+                <p class="card-text user-text">I have no idea what I am doing here</p>
+                <a href="users/new.html" class="card-link" target="_blank">
+                  Show me something interesting
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8">
-            <ul>
-              <li><a href="https://e3d-online.com">E3D</a></li>
-              <li><a href="https://www.panucatt.com">Panucatt 3D Electronics</a></li>
-              <li><a href="https://ubishotends.com/shop/">Ubis Hotends</a></li>
-              <li><a href="https://www.bondtech.se/en/">Bondtech</a></li>
-              <li><a href="https://hotends.com">Hotends.com</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row tool-list">
           <div class="col-md-4">
-            <h5>Electronics</h5>
+            <div class="card border-primary" >
+              <img src="images/intermediate.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Intermediate</h5>
+                <p class="card-text user-text">I have my 3D printere; what now?! Troubleshooting?</p>
+                <a href="users/intermediate.html" class="card-link" target="_blank">
+                  Let's go!!!
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="col-md-8">
-            <ul>
-              <li><a href="https://www.adafruit.com">Adafruit</a></li>
-              <li><a href="https://www.sparkfun.com">SparkFun</a></li>
-              <li><a href="https://www.tindie.com">Tindie</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row tool-list">
           <div class="col-md-4">
-            <h5>General</h5>
-          </div>
-          <div class="col-md-8">
-            <ul>
-              <li><a href="http://www.mcmaster.com">McMasters</a></li>
-              <li><a href="https://www.emartee.com">EMartee</a></li>
-              <li><a href="https://www.micromark.com">MicroMark</a></li>
-              <li><a href="http://www.alltronics.com">Alltronics</a></li>
-              <li><a href="http://excesssolutions.com">Excess Solutions, formerly Halted (HSC)</a></li>
-            </ul>
+            <div class="card border-primary" >
+              <img src="images/heart-printer.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Advanced</h5>
+                <p class="card-text user-text">Bring it on</p>
+                <a href="users/advanced.html" class="card-link" target="_blank">
+                  Just Go!
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- EVENTS -->
       <section>
-        <h2 id="design">3D Design Hints & Calculators</h2>
-        <ul>
-          <li><a href="https://calculator.josefprusa.cz/">Reprap Calculator</a></li>
-          <li><a href="https://www.amesweb.info/FitTolerance/FitTolerance.aspx">Limits, Fits and Tolerances</a>
-          </li>
-          <li><a href="https://coloringchaos.github.io/form-fall-16/joints">3D printing joints</a></li>
-          <li><a href="https://www.fictiv.com/hwg/design/how-to-design-snap-fit-components">How to Design Snap-Fit
-              components</a></li>
-          <li><a href="https://www.fictiv.com/hwg/design">Design Tutorial</a></li>
-          <li><a href="https://www.3dhubs.com/knowledge-base/key-design-considerations-3d-printing">Design
-              Considerations For 3D Printing</a></li>
-          <li><a
-              href="https://i.materialise.com/blog/en/5-mistakes-to-avoid-when-designing-a-3d-model-for-3d-printing/">5
-              Mistakes to avoid when designing a model</a></li>
-          <li><a href="http://dfabresearch.com/xo15/technical-resources/g-code/g-code-cheat-sheets/">G-Code Cheat
-              Sheet</a></li>
-          <li><a href="https://reprap.org/wiki/G-code">Reprap G-Code</a></li>
-          <li><a href="http://marlinfw.org/meta/gcode/">Marlin G-Code</a></li>
-        </ul>
+        <h2>Events</h2>
+        <div class="row justify-content-md-center">
+          <div class="col-md-5">
+            <div class="card text-center">
+              <div class="card-header">Event</div>
+              <div class="card-body">
+                <h5 class="card-title">Meetup</h5>
+                <p class="card-text">
+                  Every 3rd Wednesday of the month
+                  <br>
+                  401 Charcot Ave · San Jose, CA
+                </p>
+                <a href="https://www.meetup.com/All-things-3D-Printing/" class="btn btn-primary" target="_blank">Meetup</a>
+              </div>
+              <div class="card-footer text-muted">
+                Meet us @ TheShop!
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="card text-center">
+              <div class="card-header">Event</div>
+              <div class="card-body">
+                <h5 class="card-title">Maker Faire</h5>
+                <p class="card-text">
+                  Maker Faire Bay Area 2019, May 17-19; Fri - Sun
+                  <br>
+                  SAN MATEO COUNTY EVENT CENTER
+                </p>
+                <a href="https://makerfaire.com/bay-area/" class="btn btn-primary" target="_blank">Check Out!</a>
+                <a href="https://makerfaire.com/bay-area/buy-tickets/" class="btn btn-primary" target="_blank">Buy Tickets</a>
+              </div>
+              <div class="card-footer text-muted">
+                Meet us @ Booth xxx!
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- <ul>
+          <li><a href="https://makerfaire.com/bay-area/">Maker Faire Bay Area</a></li>
+        </ul> -->
       </section>
-      <section>
-        <h2>Useful You Tube Channels</h2>
-        <ul>
-          <li><a href="https://www.youtube.com/user/TheMakersMuse/featured">Makers Muse</a></li>
-          <li><a href="https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A">Thomas Sanladerer</a></li>
-          <li><a href="https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ">3D Printing Nerd</a></li>
-          <li><a href="https://www.youtube.com/channel/UCqRiv7rQuxge63bqJ2hVNUQ">Chris Riley</a></li>
-          <li><a href="https://www.youtube.com/channel/UC2Tc0TsvFxC83zF1w5x1PWQ/videos">3D Maker Noob</a></li>
-          <li><a href="https://www.youtube.com/channel/UCiczXOhGpvoQGhOL16EZiTg/featured">CNC Kitchen</a></li>
-        </ul>
-      </section>
-      
-      
+    
+      <!-- FOOTER -->
       <footer>
         <ul class="nav">
           <li class="nav-item">
