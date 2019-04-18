@@ -8,6 +8,15 @@
   <link href="../styles.css" rel="stylesheet" type="text/css" />
   <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="../images/printer.ico">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script> 
 </head>
 <body>
   <div class="container">
@@ -137,13 +146,90 @@
       <div class="row"><div class="col-md-12">
         <h2>Basic Workflow</h2>
         <img src="../images/Workflow.png" alt="" style="width: 100%">
-        <ul>
+        <!-- <ul>
           <li>Find what you want to print (Thingiverse)</li>
           <li>Tweak it for your purposes (TinkerCAD)</li>
           <li>Convert it to g-code (Slic3r)</li>
           <li>Send it to the printer (SD card or Pronterface)</li>
           <li>Print</li>
-        </ul>
+        </ul> -->
+      </div></div>
+      <div class="row"><div class="col-md-12">
+        <!-- <div class="row"><div class="col-md-12">
+          <h2>Workflow</h2>
+        </div></div> -->
+        <div class="accordion" id="workFlow">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Idea
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#workFlow">
+              <div class="card-body">
+                <p>
+                  First timers often print the sample file provided with your 3D Printer. This gives you a chance to learn
+                  how to turn on your machine, set the temperatures and to load the filament in your machine following the
+                  manufacturer's instructions.
+
+                  Sites like <a href="https://www.thingiverse.com">Thingiverse</a> have thousands of files to choose what you wish to
+                  print next. Scan through the fotos until you find something interesting, then download the .stl file.
+                  (.stl is a file format most commonly for models before you customize them for your specific printer. See
+                  the Glossary for detailed definitions of thest terms.) .
+
+                  Best 3D Models for Beginners [link to its own page... can put some illustrations on it that will help
+                  considerably.] Advice from our experts on picking 3D models that will print successfully for those those
+                  new to 3D Printing.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Slicer
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workFlow">
+                <div class="card-body">
+                  <p>
+                    You can download slicer software for free, such as <a href="https://slic3r.org/" target="_blank">Slic3r</a> or <a
+                      href="https://ultimaker.com/en/products/ultimaker-cura-software" target="_blank">Cura</a>.
+
+                    The slicer will load in a .stl file, then you can choose the printer and filaments. The myriad of
+                    other settings available can wait and you can learn about these as you need them.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    G-Code
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#workFlow">
+                <div class="card-body">
+                  <p>
+                    Some users prefer transferring files to the 3D printer on an SD card, while others will send it
+                    directly using a program such as <a href="http://www.pronterface.com/">Pronterface</a>
+
+                    Your 3D Printer Manual will explain what methods work with your printer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div></div>
     </section>
   
