@@ -23,11 +23,17 @@
 <body>
   <div class="container">
     <section>
-      <h5>Title?</h5>
+      <h2>Getting Started</h2>
       <div class="row">
         <div class="col-md-12">
-          <p>
-            If you are more interested in 3D design, and would rather have someone else print things, ask around or look at the <a href="#services">Service Bureau</a> section.
+          <p>You are entering the world of 3D Printing while it is still a very young technology. 
+          There are more and more printers you can have up an running almost immediately. 
+          Others who like the challenge, can still build their own, but it keeps getting easier.  
+          This is like the early days of computers, when people had to work a little harder 
+          to get started, but the results were almost magical.
+          </p>
+          <p>This is a “learn as you go” process, that does not require more than watching 
+          a couple videos to have the confidence to attempt a first print.  
           </p>
         </div>
       </div>
@@ -35,22 +41,229 @@
 
     <!-- WHAT CAN YOU PRINT Gallery -->
     <section>
-      <h2>What can I print?</h2>
+      <h3>What can I print?</h3>
     </section>
+    <!-- WHAT CAN YOU PRINT Gallery -->
     
-    <!-- First Models -->
+    
+    <!-- Learning about your printer -->
     <section>
+      <div class="row tool-list">
+        <div class="col-md-4">
+          <h4>Learning about your printer</h4>
+        </div>
+      </div>
+    <div class="row tool-list">
+      <div class="col-md-4">
+        <h5>3D Printer Anatomy</h5>
+          	  <a href="https://www.youtube.com/watch?v=KZi3esvQ02w">Parts of a printer</a>
+        </div>
+        <div class="col-md-8">
+            <p>Follow along in your printer manual to get a better overview of all the 
+            parts of your printer
+		    </p>
+        </div>
+      </div>
+	</section> 
+	<!-- Intro Videos -->
+	<section>
+	  <div class="row tool-list">
+        <div class="col-md-4">
+          <h4>Intro Videos</h4>
+        </div>
+      </div>
+	  <div class="row tool-list">
+        <div class="col-md-4">
+          <h5>I Got a 3D printer for Christmas</h5>
+          <ul>
+          	<li><a href="https://www.youtube.com/watch?v=6Rw9-nxqXtM">The Video</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <p>Joel from <a href="https://www.youtube.com/channel/UC_7aK9PpYTqt08ERh1MewlQ">3D Printing Nerd</a> waxes nostalgic about his 
+          first 3D printer and how that led to his new career running a YouTube channel</p>
+        </div>
+      </div>
+      <div class="row tool-list">
+        <div class="col-md-4">
+          <h5>Filament storage and Loading</h5>
+          <ul>
+          	<li><a href="https://www.youtube.com/watch?v=c20nrF4b8-g">The Video</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <p>Angus from <a href="https://www.youtube.com/user/TheMakersMuse">Makers Muse</a> talks about filament loading, storage and handling.</p>
+        </div>
+      </div>      
+    </section>
+	<!-- Basic workflow -->
+    <!-- BASIC WORKFLOW -->
+    <section>
+      <div class="row"><div class="col-md-12">
+        <h2>Basic Workflow</h2>
+        <img src="../images/Workflow.png" alt="" style="width: 100%">
+        <!-- <ul>
+          <li>Find what you want to print (Thingiverse)</li>
+          <li>Tweak it for your purposes (TinkerCAD)</li>
+          <li>Convert it to g-code (Slic3r)</li>
+          <li>Send it to the printer (SD card or Pronterface)</li>
+          <li>Print</li>
+        </ul> -->
+      </div></div>
+      <div class="row"><div class="col-md-12">
+        <!-- <div class="row"><div class="col-md-12">
+          <h2>Workflow</h2>
+        </div></div> -->
+        <div class="accordion" id="workFlow">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Deciding what to print
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#workFlow">
+              <div class="card-body">
+                <p>
+                  First timers often print the sample file provided with your 3D Printer. This gives you a chance to learn
+                  how to turn on your machine, set the temperatures and to load the filament in your machine following the
+                  manufacturer's instructions.
+
+                  Sites like <a href="https://www.thingiverse.com">Thingiverse</a> have thousands of files to choose what you wish to
+                  print next. Scan through the fotos until you find something interesting, then download the .stl file.
+                  (.stl is a file format most commonly for models before you customize them for your specific printer. See
+                  the Glossary for detailed definitions of thest terms.) .
+
+                  Best 3D Models for Beginners [link to its own page... can put some illustrations on it that will help
+                  considerably.] Advice from our experts on picking 3D models that will print successfully for those those
+                  new to 3D Printing.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Slicing
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workFlow">
+                <div class="card-body">
+                  <p>
+                    Slicers convert 3D Model files (.stl) into the G-Code (.gcode) files that contain the instructions for the printer.
+                    You can download slicer software for free, such as <a href="https://slic3r.org/" target="_blank">Slic3r</a> or <a
+                      href="https://ultimaker.com/en/products/ultimaker-cura-software" target="_blank">Cura</a>.
+
+                    The slicer will load in a .stl file, then you can choose the printer and filaments. The myriad of
+                    other settings available can wait and you can learn about these as you need them.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    G-Code
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#workFlow">
+                <div class="card-body">
+                  <p>
+                    Some users prefer transferring files to the 3D printer on an SD card, while others will send it
+                    directly using a program such as <a href="http://www.pronterface.com/">Pronterface</a>
+
+                    Your 3D Printer Manual will explain what methods work with your printer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    Start the Print
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#workFlow">
+                <div class="card-body">
+                  <p>
+                  	Follow the instructions for your printer for loading the filament and getting the print started.
+                    Especially during your first print, you won't need the advice to check in on your printer's 
+                    progress as it builds your model before your eyes. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+    </section>	
+    <!-- Tips for a successful print -->   
+    <!-- First Models -->
+    <section id="beginning_models">
     <div class="row tool-list">
         <div class="col-md-4">
-          <h5>Recommended first prints</h5>
+          <h4>Recommended first prints</h4>
         </div>
     </div>
+    <div class="row tool-list">
+      <div class="col-md-4">
+        <h5>20mm Calibration Cube</h5>
+          	  <a href="https://www.thingiverse.com/thing:953162">Thing Files</a>
+        </div>
+        <div class="col-md-8">
+            <p>Calibration cubes are helpful to print to test the accuracy of your printer.
+            Use the calipers to make sure that the print measures 20mm on a side. If it doesn't,
+            consult the your printers manual for ways to correct the problem. There are other 
+            more complex calibration objects up on 
+            <a href="https://www.thingiverse.com/explore/newest/3d-printing/3d-printing-tests/">Thingiverse</a> 
+            that can help test the performance of your printer, slicer and filament
+		    </p>
+          </div>
+      </div>
+    <div class="row tool-list">
+      <div class="col-md-4">
+        <h5>The Benchy</h5>
+          	  <a href="https://www.thingiverse.com/thing:763622">Thing Files</a>
+        </div>
+        <div class="col-md-8">
+            <p>The venerable 3D Benchy is a small simple boat model that has commonly been used to 
+            showcase printers and filaments for several years. Its so popular it has its own 
+            <a href="http://www.3dbenchy.com">website</a>
+		    </p>
+          </div>
+      </div>
+    <div class="row tool-list">
+      <div class="col-md-4">
+        <h5>Lithopanes</h5>
+          	  <a href="http://3dp.rocks/lithophane/">Website</a>
+        </div>
+        <div class="col-md-8">
+            <p>Lithophanes are an easy first project that you can show off to friends. 
+            Upload any .jpg photo and get an .stl file ready for your slicer. These files 
+            are very easy for first time prints since they are quick to print and also fit 
+            the guidelines.  A lithophane is printed in layers to make a very detailed image 
+            when placed in front of a light -- Karen
+		    </p>
+          </div>
+      </div>
+
 	</section>
 	    
     <!-- Beginers Tools -->
     <div class="row tool-list">
         <div class="col-md-4">
-          <h5>Tools you should have: Beginner</h5>
+          <h4>Tools you should have: Beginner</h4>
         </div>
         <div class="col-md-8">
           <div class="row">
@@ -89,19 +302,6 @@
       
     <!-- Design Tutorials https://www.youtube.com/watch?v=60xfIu-lqAs -->  
 
-    <!-- THIRD PARTY SERVICES -->
-    <section id="services">
-      <h2>Service Bureaus</h2>
-      <p>For when you want someone else to print it in exotic materials</p>
-      <ul class="list-group list-group-horizontal">
-        <li class="list-group-item"><a target="_blank" href="https://www.shapeways.com">Shapeways</a></li>
-        <li class="list-group-item"><a target="_blank" href="https://www.ponoko.com">Ponoko</a></li>
-        <li class="list-group-item"><a target="_blank" href="https://i.materialise.com/en">i.Materilaize</a></li>
-        <li class="list-group-item"><a target="_blank" href="https://www.fictiv.com">Fictiv</a></li>
-        <li class="list-group-item"><a target="_blank" href="https://www.protolabs.com">ProtoLabs</a></li>
-        <li class="list-group-item"><a target="_blank" href="https://www.emachineshop.com">eMachineShop</a></li>
-      </ul>
-    </section>
 
     <!-- MOVING TO NEXT USER -->
     <section>
@@ -109,7 +309,7 @@
       <div class="row">
         <div class="col-md-12">
           <a href="../users/intermediate.html" class="btn btn-light btn-block">
-            I am getting/got a 3D Printer!
+            I'm ready for more
           </a>
         </div>
     </section>
