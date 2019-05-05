@@ -11,6 +11,10 @@ p {
 	text-align: justify;
 }
 
+i {
+	font-style: italic;
+}
+
 .profile-text {
 	height: 250px;
 	text-overflow: ellipsis;
