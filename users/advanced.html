@@ -22,6 +22,9 @@
 <body>
   <div class="container">
     <header></header>
+    <p>You feel comfortable (not really, but you still do it) letting your printer run overnight on long jobs. You can list
+    several things you would change about your printer if you could. Its time to experiment with the medium, new filaments,
+    more advanced designs, new finishing techniques.</p>
       <div class="row tool-list">
         <div class="col-md-4">
           <h5>Tools you should have: Advanced</h5>
@@ -44,6 +47,9 @@
 				</a></li>
                 <li><a type="button" class="btn btn btn-outline-info btn-sm" href="../tools.html#Heat_Gun" data-toggle="tooltip" data-placement="bottom" title="For removing filamant strings from the finished print">
                     Heat Gun
+				</a></li>
+				<li><a type="button" class="btn btn btn-outline-info btn-sm" href="../tools.html#screwdrivers" data-toggle="tooltip" data-placement="bottom" title="Just generally useful">
+                    Assorted small screwdrivers
 				</a></li>
 				<li><a type="button" class="btn btn btn-outline-info btn-sm" href="../tools.html#box_end_wrench" data-toggle="tooltip" data-placement="bottom" title="For removing the Nozzle">
                     7mm Box End Wrench
@@ -70,22 +76,58 @@
 				<li><a type="button" class="btn btn btn-outline-info btn-sm" href="../tools.html#Multimeter" data-toggle="tooltip" data-placement="bottom" title="Handy for measuring many things electrical">
                     Digital Multimeter w/temperature probe
 				</a></li>
+				<li><a type="button" class="btn btn btn-outline-info btn-sm" href="../tools.html#soldering_iron" data-toggle="tooltip" data-placement="bottom" title="Fixing the wiring">
+                    Soldering iron & solder sucker
+				</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-
+<!--
     <section>
       <div class="row"><div class="col-md-12">
         <h2>Performance Tuning</h2>
         <p>need content</p>
       </div></div>
     </section>
-    
+-->
     <section>
       <div class="row"><div class="col-md-12">
-        <h2>Printing Upgrades for your Printer</h2>
+        <h2>Upgrading the Firmware</h2>
+        <p>Most of the current 3D printers in the hobbyist market run on an 
+        <a target="_blank" href="https://www.arduino.cc/en/">Arduino</a> microcontroller based 
+        main board. This makes modifying the firmware as easy as downloading the 
+        <a target="_blank" href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a> and the
+        firmware source, making your modifications and uploading it to your printer via USB. 
+        Thomas Sanladerer has a nice video <a target="_blank" href="https://www.youtube.com/watch?v=lAKyZd63_ns">howto</a> 
+        on upgrading the marlin firmware</p>
+      </div></div>
+      <div class="row tool-list">
+        <div class="col-md-4">
+          <h5>Firmware</h5>
+          <p>Code that runs on the printer and interprets G-code, runs the motors, sensors, fans, hot-end etc...</p>
+        </div>
+        <div class="col-md-8">
+          <ul>
+            <li><a target="_blank" href="http://marlinfw.org">Marlin</a></li>
+            <li><a target="_blank" href="https://github.com/gnea/grbl/releases">GRBL</a></li>
+            <li><a target="_blank" href="https://www.reprap.org/wiki/RepRap_Firmware">RepRap</a></li>
+            <li><a target="_blank" href="http://smoothieware.org">Smoothieware</a></li>
+            <li><a target="_blank" href="https://www.repetier.com/documentation/repetier-firmware/">Repetier Firmware</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+ 
+     <section>
+      <div class="row"><div class="col-md-12">
+        <h2>Upgrading the Hardware</h2>
+        <p>Common modifications our members have done</p>
+      </div></div>
+     <div class="row"><div class="col-md-12">
+        <h4>Printing Upgrades for your Printer</h4>
         <p>Its almost a trope, many of your prints will be upgrades and customizations for your printer.
         Possibly a leftover from the from the early days of self made 3D printers, or a necessary step to
         make up for the corners cut by cheap 3D printer vendors.</p>
@@ -101,42 +143,11 @@
         </div>
         <div class="col-md-8">
           <ul>
-            <p>Thingiverse has a large selection of things you can build for your printer</p>
+            <p>Thingiverse has a large selection of things you can build for your printer: Fan shrouds, 
+            spool holders, knobs etc...</p>
           </ul>
         </div>
       </div>
-
-      </div></div>
-    </section>
-
-    <section>
-      <div class="row"><div class="col-md-12">
-        <h4>Upgrading the Firmware</h4>
-        <p>need content</p>
-      </div></div>
-        <div class="row tool-list">
-        <div class="col-md-4">
-          <h5>Firmware</h5>
-          <p>Code that runs on the printer and interprets G-code, runs the motors, sensors, fans, hot-end etc...</p>
-        </div>
-        <div class="col-md-8">
-          <ul>
-            <li><a target="_blank" href="http://marlinfw.org">Marlin</a></li>
-            <li><a target="_blank" href="https://github.com/gnea/grbl/releases">GRBL</a></li>
-            <li><a target="_blank" href="https://www.reprap.org/wiki/RepRap_Firmware">RepRap</a></li>
-            <li><a target="_blank" href="http://smoothieware.org">Smoothieware</a></li>
-            <li><a target="_blank" href="https://www.repetier.com/documentation/repetier-firmware/">Repetier Firmware</a></li>
-          </ul>
-        </div>
-      </div>
-      </div></div>
-
-    </section>
- 
-     <section>
-      <div class="row"><div class="col-md-12">
-        <h2>Upgrading the Hardware</h2>
-        <p>Common modifications our members have done</p>
       </div></div>
       <div class="row tool-list">
         <div class="col-md-3">
@@ -276,6 +287,8 @@
         <h2>Other resources</h2>
         <ul>
           <li><a target="_blank" href="https://3dprinting.stackexchange.com/">3D Printing at Stack Exchange</a></li>
+          <li><a target="_blank" href="https://www.reddit.com/r/3Dprinting/">r/3Dprinting subreddit</a></li>
+          <li><a target="_blank" href="https://hackaday.io/search?term=3D+printing">Hackaday</a></li>
         </ul>
       </div></div>
     </section>
