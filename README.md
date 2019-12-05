@@ -9,5 +9,5 @@ new 3d printer owner,  If you are interested in building one, come to the meetin
 there are lots of folks there with experience, happy to share.
 
 This poor collection of semi-random html is accessible on the web at 
-http://kingshammer.org/barr/
+http://sv3d.org/
 
